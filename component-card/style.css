@@ -17,7 +17,7 @@ h1{
     font-family:Roboto-light, Arial, sans-serif;
     font-size:3rem; /* three times the size of the default font-size */
     font-weight:normal;
-    margin-left: 1em;
+/*     margin-left: 1em; */
     color:coral;
 }
 
@@ -25,13 +25,13 @@ h2{
     font-family:Roboto-medium, Arial, sans-serif;
     font-size:2rem; /* three times the size of the default font-size */
     margin-bottom:0.5em;
-    margin-left: 1em;
+/*     margin-left: 1em; */
 }
 
     
 h3{
     text-transform: uppercase;
-    margin-left: 1em;
+/*     margin-left: 1em; */
     margin-bottom:0.5em;
 }
 
