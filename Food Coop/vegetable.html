@@ -6,9 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  
         <title>Sunset Park Food Coop</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <link rel="stylesheet" href="css/vegetable.css">
@@ -37,6 +37,7 @@
       </header>
         
   
+<!--
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -51,7 +52,42 @@
             <li><a href="contact.html">Contact Us</a></li>
             
         </ul>
+-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--  <a class="navbar-brand" href="#">Navbar</a>-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Our Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="vegetable.html">Vegetables</a>
+          <a class="dropdown-item" href="#">Fruites</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="contact.html" tabindex="-1" aria-disabled="true">Join Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
       
 
         <p>
@@ -60,7 +96,8 @@
       <h3>Vegetables</h3>
         <hr>
       <div class="row">
-         
+         <div class="col-md-4">
+          
              <!-- new card starts-->  
             <article class="card" id="Aloe">
                 <header class="card_header">
@@ -68,14 +105,15 @@
                     
                 </header>
                 <div class="card_img">
-                    <img src="image/aloe_vera.jpg" alt="ALOE">
+                    <img src="image/Aloe.jpeg" alt="ALOE">
                     </div>
                 
                 <p class="card_text">The Forbidden City is a rectangle, with 961 metres (3,153 ft) from north to south and 753 metres (2,470 ft) from east to west. .</p>
                       
             </article>
-              
+          </div>
           
+          <div class="col-md-4">
           <article class="card" id="Arugula">
               
                 <header class="card_header">
@@ -86,33 +124,71 @@
                     <img src="image/Arugula.jpg" alt="ALOE">
                 </div>
                 <p class="card_text">The Forbidden City is a rectangle, with 961 metres (3,153 ft) from north to south and 753 metres (2,470 ft) from east to west. .</p>
-                     
+                    
             </article>
-             </div>
+          </div>
+          
+          <div class="col-md-4">
+            <article class="card" id="Broccoli">
+                <header class="card_header">
+                    <h1 class="card_title">Basil</h1>
+                    
+                </header>
+                <div class="card_img">
+                    <img src="image/Broccoli.jpg" alt="Broccoli">
+                </div>
+                <p class="card_text">The Forbidden City is a rectangle, with 961 metres (3,153 ft) from north to south and 753 metres (2,470 ft) from east to west. .</p>
+             </article>
+        </div>
+            </div>
+          
+             
+       
+        
            <div class="row">
+               <div class="col-md-4">
           <article class="card" id="Basil">
                 <header class="card_header">
                     <h1 class="card_title">Basil</h1>
                     
                 </header>
                 <div class="card_img">
-                    <img src="image/Basil.jpg" alt="ALOE">
+                    <img src="image/D145_206_138_0004_600.jpg" alt="ALOE">
                 </div>
                 <p class="card_text">The Forbidden City is a rectangle, with 961 metres (3,153 ft) from north to south and 753 metres (2,470 ft) from east to west. .</p>
                       
             </article>
+               </div>
+               
+               <div class="col-md-4">
                <article class="card" id="Bok choy-baby ">
                 <header class="card_header">
                     <h1 class="card_title">Bok choy-baby </h1>
                     
                 </header>
                 <div class="card_img">
-                    <img src="image/bok-choy-400x267.jpg" alt="ALOE">
+                    <img src="image/Baby-Bok-Choy.webp" alt="ALOE" width:50%;>
                 </div>
                 <p class="card_text">The Forbidden City is a rectangle, with 961 metres (3,153 ft) from north to south and 753 metres (2,470 ft) from east to west. .</p>
                       
             </article>
-       </div>
+               </div>
+               
+               <div class="col-md-4">
+                   <article class="card" id="Brussels sprouts">
+                <header class="card_header">
+                    <h1 class="card_title">Basil</h1>
+                    
+                </header>
+                <div class="card_img">
+                    <img src="image/Brussels sprouts.jpg" alt="Brussels sprouts">
+                </div>
+                <p class="card_text">The Forbidden City is a rectangle, with 961 metres (3,153 ft) from north to south and 753 metres (2,470 ft) from east to west. .</p>
+                      
+            </article>
+               </div>
+        
+        </div>
         <footer>
             <div class="container">
             <div class="col">
@@ -135,6 +211,9 @@
         
         
     </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
 
 
