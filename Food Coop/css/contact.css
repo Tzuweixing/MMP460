@@ -10,7 +10,7 @@ html {
 body {
     margin: 0 auto;
     padding: 2em 2em 4em;
-    max-width: 800px;
+    
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
@@ -68,11 +68,13 @@ body:not(.title-tagline-hidden) .site-branding-text {
     vertical-align: middle;
 }
 
-.site-title
-
+.site-title{
+font-family: 'PT Sans Caption Bold', arial, helveica, sans-serif;
+    font-size: 2.5em;
+}
 h1{
-margin-left: 130px;
-    height: 200px;
+/*margin-left: 130px;*/
+/*    height: 200px;*/
 /*    margin-top: 20px;*/
     font-size: 3em;
 /*    padding-top: 30px;*/
@@ -165,6 +167,9 @@ margin-top: 50px;
 p{
 
 
+}
+.bg-dark{
+background-color: #3f9034 !important;
 }
 
 .button{

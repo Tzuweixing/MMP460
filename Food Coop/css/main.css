@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 2em 2em 4em;
 /*    max-width: 800px;*/
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    font-family: "Myriad Pro";*/
     font-size: 16px;
     line-height: 1.5em;
     color: #545454;
@@ -55,8 +55,9 @@ position: relative;
 }
 
 .site-description {
-    font-size: larger;
+    font-size: 1.5em;
     font-weight: 300;
+    font-family:  PTSansCaptionRegular, arial, helveica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -65,13 +66,18 @@ body:not(.title-tagline-hidden) .site-branding-text {
     max-width: 100%;
     vertical-align: middle;
 }
-.site-title
+.site-title{
+font-family: 'PT Sans Caption Bold', arial, helveica, sans-serif;
+    font-size: 2.5em;
+}
 
 h1{
-    height:200px ;
-margin-left: 130px;
+/*    height:200px ;*/
+/*margin-left: 130px;*/
+    font-family: "Myriad Pro", PTSansCaptionBold, arial, helveica, sans-serif;
+    
 /*    margin-top:0.1px;*/
-    font-size: 2em;
+    font-size: 4em;
 /*    padding-top: 30px;*/
     
 } 
@@ -87,8 +93,9 @@ hr{
 border: 1px solid #3f9034;
 }
 h4{
-font-size: 20px;
+font-size: 30px;
     color: #f17e07;
+    margin-top: 20px;
 }
 
 h2 {
@@ -102,11 +109,16 @@ ul {
   padding: 0;
 /*    background-color:black;*/
 }
+/*
 li{
 float: left;
     background-color: #3f9034 ;
     margin-top: 20px;
+    display: center;
 }
+*/
+
+
 
 li a, .dropbtn {
 display: inline-block;
@@ -167,6 +179,9 @@ img {
     border-radius: 4px;
     display: block;
 
+}
+.bg-dark{
+background-color: #3f9034 !important;
 }
 
 

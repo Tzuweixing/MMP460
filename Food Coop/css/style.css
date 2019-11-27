@@ -164,7 +164,9 @@ p{
 margin-top: 100px;
 }
 
-
+.bg-dark{
+background-color: #3f9034 !important;
+}
 
 img {
     -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
@@ -174,6 +176,9 @@ img {
     border-radius: 4px;
     display: block;
 
+}
+.bg-dark{
+background-color: #3f9034 !important;
 }
 footer{
     background-color: #3f9034;

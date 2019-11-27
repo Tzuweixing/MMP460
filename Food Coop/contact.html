@@ -6,9 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
         <title>Sunset Park Food Coop</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <link rel="stylesheet" href="css/contact.css">
@@ -37,51 +36,79 @@
       </header>
         
   
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-           <li class="dropdown">
-           <a href="" class="dropbtn">Our Products</a>
-           <div class="dropdown-content">
-          <a href="#">Vegetables</a>
-           <a href="#">Fruits</a>
-           <a href="#">Productions</a>
-    </div>
-            
-            <li><a href="contact.html">Contact Us</a></li>
-            
-        </ul>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!--  <a class="navbar-brand" href="#">Navbar</a>-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Our Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="vegetable.html">Vegetables</a>
+          <a class="dropdown-item" href="#">Fruites</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Join Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    
 
       
-      <h2>Contact Us</h2>
+      <h2>Join The Coop</h2>
         <hr>
        <p >
-        The Sunset Park Food Coop is a membership organization. You must be a member to shop and Coop membership is open to all. If you are not currently a member, we welcome you to join the Coop.
+        Support the co-op by becoming a member. We offer different types of memberships that will entitle you to a discount when you shop with us. Low-income dues options for working members are available. Please let Membership know when joining.
         </p>
         
+        <h3>New Working Members</h3>
+        <hr>
+        <p>The Co-op is owned and democratically controlled by its member-owners. By joining the Co-op, you become a part owner of our socially responsible business. Becoming a member-owner is easy. Member-ownership is paid for with a onetime equity investment of $200. You may pay it in full. Or, you may pay a minimum $25 with your application (accompanied by a $15 one-time processing fee), followed by $25 minimum annual payments (due on the anniversary of your first payment) until the balance is paid.There is no work requirement.</p>
+        <h4>Sign Up For Working Members</h4>
+        <hr>
         <div class="contanier">
-            <h3></h3>
-        
+            
+        <form>
         <div class="form-group">
             <label for="usr">Name:</label>
             <input type="text" class="form-control" id="usr">
-            <form>
+            
             </div>
             <div class="form-group">
             <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email">
             </div>
             <div class="form-group">
-            <label for="comment">Comment:</label>
+            <label for="comment">Working Date:</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
             </div>
             </form>
-        </div>
+        
         <button class="button" >Send</button>
+        </div>
         
         
         
-        <h3>Street Address</h3>
+        <h3>Contact Us</h3>
         <hr>
         <p>7th Avenue 50th street</p>
         
@@ -107,6 +134,9 @@
         
         
     </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
 
 
