@@ -1,17 +1,13 @@
 html {
     background-color: #f9edd3 ;
-/*
-    background-image: -webkit-linear-gradient(20deg,rgb(20,23,23) 0%,rgb(216,221,221) 100%);
-    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
-    -webkit-font-smoothing: antialiased;
-*/
+
 }
 
 body {
-    margin: 0 auto;
-    padding: 2em 2em 4em;
+/*    margin: 0 auto;*/
+/*    padding: 2em 2em 4em;*/
 /*    width: 800px;*/
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
     font-size: 16px;
     line-height: 1.5em;
     color: #545454;
@@ -20,66 +16,79 @@ body {
 }
 
 .site-header{
-    height: 180px;
-    position: relative;
+/*    height: 200px;*/
+/*    position: relative;*/
     background-color: #ffe1a3;
 /*    margin-top:20px;*/
 }
 
+/*
 .custom-header{
 position: relative;
+    
+    
+    
 }
+*/
+/*
 .custom-header-media {
     bottom: 0;
     left: 0;
     overflow: hidden;
     position: absolute;
     right: 0;
-    top: 0;
+    margin-top: 20px;
     width: 100%;
 }
+*/
 
-.wrap {
-    margin-left: auto;
-    margin-right: auto;
-/*    max-width: 700px;*/
-    padding-left: 2em;
-    padding-right: 2em;
+
+.site-title{
+    
+font-family: 'PT Sans Caption', arial, helveica, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-top: 20px;
+    
 }
 
-.custom-logo {
-    display: inline-block;
-/*    padding-right: 1em;*/
-    vertical-align: middle;
-    margin-top: 20px;
-    width: auto;
+.site-branding{
+margin-left: 200px;
 }
 
 .site-description {
-    font-size: larger;
+    font-size: 1.5em;
     margin-top: 20px;
     font-weight: 300;
     text-transform: uppercase;
+    font-family:  PTSansCaptionRegular, arial, helveica, sans-serif;
 }
 
-body:not(.title-tagline-hidden) .site-branding-text {
+body:not(.title-tagline-hidden).site-branding-text {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
+    padding-top: 20px;
+/*    height: 300px;*/
+     
 }
 
-.site-title
+
 
 h1{
+/*
 margin-left: 130px;
     height: 200px;
-/*    margin-top: 20px;*/
+*/
+
     font-size: 3em;
-/*    padding-top: 30px;*/
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
+
     
 } 
 
 h3{
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
     color: #f17e07;
     font-weight: 600;
     line-height: 1.3em;
@@ -90,12 +99,13 @@ hr{
 border: 1px solid #3f9034;
 }
 h4{
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 font-size: 20px;
     color: #f17e07;
 }
 
 h2 {
-    
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
     margin-left: 60px;
     
 }
@@ -103,13 +113,15 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-/*    background-color:black;*/
+
 }
+/*
 li{
 float: left;
     background-color: #3f9034 ;
     margin-top: 20px;
 }
+*/
 
 li a, .dropbtn {
 display: inline-block;
@@ -118,6 +130,7 @@ display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 }
 
 li a:hover, .dropdown:hover .droptn{
@@ -149,6 +162,7 @@ display: block;
 }
 a {
     color: #0083e8;
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 }
 
 b, strong {
@@ -160,7 +174,7 @@ margin-top: 50px;
 }
 
 p{
-
+font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 margin-top: 100px;
 }
 
@@ -172,9 +186,10 @@ img {
     -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-/*    border: 10px solid rgba(0, 0, 0, 0.12);*/
+
     border-radius: 4px;
     display: block;
+   
 
 }
 .bg-dark{

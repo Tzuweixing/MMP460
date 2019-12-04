@@ -8,10 +8,12 @@ html {
 }
 
 body {
+/*
     margin: 0 auto;
     padding: 2em 2em 4em;
+*/
 /*    max-width: 800px;*/
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-size: 16px;
     line-height: 1.5em;
     color: #545454;
@@ -20,12 +22,15 @@ body {
 }
 
 .site-header{
+/*
     height: 180px;
     position: relative;
+*/
     background-color: #ffe1a3;
 /*    margin-top:20px;*/
 }
 
+/*
 .custom-header{
 position: relative;
 }
@@ -49,17 +54,25 @@ position: relative;
 
 .custom-logo {
     display: inline-block;
-/*    padding-right: 1em;*/
+    padding-right: 1em;
     vertical-align: middle;
     margin-top: 20px;
     width: auto;
 }
+*/
+
+.site-branding{
+margin-left: 200px;
+
+}
+
 
 .site-description {
-    font-size: larger;
-    margin-top: 20px;
+    font-size: 1.5em;
+   
     font-weight: 300;
     text-transform: uppercase;
+    font-family:  PTSansCaptionRegular, arial, helveica, sans-serif;
 }
 
 body:not(.title-tagline-hidden) .site-branding-text {
@@ -68,11 +81,17 @@ body:not(.title-tagline-hidden) .site-branding-text {
     vertical-align: middle;
 }
 
-.site-title
+.site-title{
+font-family: 'PT Sans Caption', arial, helveica, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-top: 20px;
+}
 
 h1{
-margin-left: 130px;
-    height: 200px;
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
+/*margin-left: 130px;*/
+/*    height: 200px;*/
 /*    margin-top: 20px;*/
     font-size: 3em;
 /*    padding-top: 30px;*/
@@ -80,6 +99,7 @@ margin-left: 130px;
 } 
 
 h3{
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
     color: #f17e07;
     font-weight: 600;
     line-height: 1.3em;
@@ -90,12 +110,13 @@ hr{
 border: 1px solid #3f9034;
 }
 h4{
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 font-size: 20px;
     color: #f17e07;
 }
 
 h2 {
-    
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
     margin-left: 60px;
     
 }
@@ -105,11 +126,13 @@ ul {
   padding: 0;
 /*    background-color:black;*/
 }
+/*
 li{
 float: left;
     background-color: #3f9034 ;
     margin-top: 20px;
 }
+*/
 
 li a, .dropbtn {
 display: inline-block;
@@ -118,6 +141,7 @@ display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 }
 
 li a:hover, .dropdown:hover .droptn{
@@ -149,6 +173,7 @@ display: block;
 }
 a {
     color: #0083e8;
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 }
 
 b, strong {
@@ -161,7 +186,8 @@ margin-top: 50px;
 
 p{
 
-margin-top: 100px;
+margin-top: 20px;
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 }
 
 .bg-dark{
@@ -186,7 +212,7 @@ margin: 0;
 
 .row{
     display:flex;
-    flex-direction: row-reverse;
+/*    flex-direction: row-reverse;*/
     
     
     

@@ -8,10 +8,12 @@ html {
 }
 
 body {
+/*
     margin: 0 auto;
     padding: 2em 2em 4em;
+*/
     
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-size: 16px;
     line-height: 1.5em;
     color: #545454;
@@ -20,75 +22,56 @@ body {
 }
 
 .site-header{
-    height: 180px;
-    position: relative;
+/*    height: 180px;*/
+/*    position: relative;*/
     background-color: #ffe1a3;
 /*    margin-top:20px;*/
 }
 
-.custom-header{
-position: relative;
-}
-.custom-header-media {
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-}
-
-.wrap {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-.custom-logo {
-    display: inline-block;
-/*    padding-right: 1em;*/
-    vertical-align: middle;
-    margin-top: 20px;
-    width: auto;
+.site-branding{
+    margin-left: 200px;
 }
 
 .site-description {
-    font-size: larger;
-    margin-top: 20px;
+    font-size: 1.5em;
+/*    margin-top: 20px;*/
     font-weight: 300;
     text-transform: uppercase;
+     font-family:  PTSansCaptionRegular, arial, helveica, sans-serif;
 }
 
 body:not(.title-tagline-hidden) .site-branding-text {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
+    padding-top: 20px;
+    
 }
 
 .site-title{
 font-family: 'PT Sans Caption Bold', arial, helveica, sans-serif;
     font-size: 2.5em;
+    font-weight: bold;
 }
 h1{
 /*margin-left: 130px;*/
 /*    height: 200px;*/
 /*    margin-top: 20px;*/
     font-size: 3em;
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 /*    padding-top: 30px;*/
     
 } 
 
 h2 {
     color: #f17e07;
-    
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
     margin-top: 100px;
     
 }
 
 h3{
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 /*    color: #f17e07;*/
     font-weight: 600;
     line-height: 1.3em;
@@ -99,6 +82,7 @@ hr{
 border: 1px solid #3f9034;
 }
 h4{
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 font-size: 20px;
     color: #f17e07;
 }
@@ -110,13 +94,16 @@ ul {
   padding: 0;
 /*    background-color:black;*/
 }
+/*
 li{
 float: left;
     background-color: #3f9034 ;
     margin-top: 20px;
 }
+*/
 
 li a, .dropbtn {
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 display: inline-block;
     width: 184px;
     color: white;
@@ -154,6 +141,7 @@ display: block;
 }
 a {
     color: #0083e8;
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 }
 
 b, strong {
@@ -165,7 +153,7 @@ margin-top: 50px;
 }
 
 p{
-
+font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 
 }
 .bg-dark{
