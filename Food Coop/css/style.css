@@ -53,7 +53,7 @@ font-family: 'PT Sans Caption', arial, helveica, sans-serif;
 }
 
 .site-branding{
-margin-left: 200px;
+justify-content: center;
 }
 
 .site-description {
@@ -61,7 +61,7 @@ margin-left: 200px;
     margin-top: 20px;
     font-weight: 300;
     text-transform: uppercase;
-    font-family:  PTSansCaptionRegular, arial, helveica, sans-serif;
+    font-family: 'PT Sans Caption Bold', arial, helveica, sans-serif;
 }
 
 body:not(.title-tagline-hidden).site-branding-text {
@@ -148,6 +148,7 @@ display: none;
     z-index: 1;
 }
 .dropdown-content a{
+    font-family: 'PT Sans Caption Bold', arial, helveica, sans-serif;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -199,7 +200,7 @@ footer{
     background-color: #3f9034;
     color: #ffe1a3;
     height: 100px;
-   
+   font-family: 'PT Sans Caption Bold', arial, helveica, sans-serif;
 padding: 5px;
     margin-top: 100px;
     

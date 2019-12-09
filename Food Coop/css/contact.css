@@ -29,7 +29,7 @@ body {
 }
 
 .site-branding{
-    margin-left: 200px;
+    justify-content: center;
 }
 
 .site-description {
@@ -37,7 +37,7 @@ body {
 /*    margin-top: 20px;*/
     font-weight: 300;
     text-transform: uppercase;
-     font-family:  PTSansCaptionRegular, arial, helveica, sans-serif;
+     font-family: 'PT Sans Caption Bold', arial, helveica, sans-serif;
 }
 
 body:not(.title-tagline-hidden) .site-branding-text {
@@ -180,6 +180,7 @@ img {
 
 }
 footer{
+    font-family: 'PT Sans Caption Bold', arial, helveica, sans-serif;
     background-color: #3f9034;
     color: #ffe1a3;
     height: 100px;
