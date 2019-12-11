@@ -23,6 +23,17 @@ body {
 /*    margin-top:20px;*/
 }
 
+.carousel-control-prev-icon{
+background-color: black;
+}
+
+.carousel-control-next-icon{
+background-color: black;
+}
+.carousel-indicators li{
+background-color: black;
+}
+
 /*
 .custom-header{
 position: relative;
@@ -71,6 +82,7 @@ margin-top: 20px;
 .site-branding{
 justify-content: center;
 }
+
 body:not(.title-tagline-hidden) .site-branding-text {
     display: inline-block;
     max-width: 100%;
