@@ -206,6 +206,26 @@ padding: 5px;
     
 }
 
+@media (max-width: 576px) { 
+h1.site-title{
+font-family: 'PT Sans Caption', arial, helveica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+    .site-description{
+    font-size: 1em;
+    }
+    footer{
+    height: 100%;
+        font-size: 10px;
+    }
+    footer h5{
+    height: 100%;
+        font-size: 15px;
+    }
+}
+
+
 @-webkit-keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);
@@ -213,6 +233,7 @@ padding: 5px;
     100% {
         -webkit-filter: grayscale(0%);
     }
+    
 }
 
 @keyframes colorize {

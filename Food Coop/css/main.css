@@ -228,6 +228,53 @@ padding: 5px;
     
 }
 
+@media (max-width: 576px) { 
+h1.site-title{
+font-family: 'PT Sans Caption', arial, helveica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+    .jumbotron{
+    width: 200px;
+        
+    top: 20%;
+    left: 30%;
+    padding:1em;
+    background-color: #f17e07;
+   
+    font-family: 'PT Sans Caption', arial, helveica, sans-serif;
+        font-size: .7em;
+        line-height: 1.5em;
+        
+}
+    .jumbotron .display-4{
+    font-size: 1.5em;
+        
+        
+    }
+    
+    .jumbotron p{
+    margin-top: 0;
+    }
+    
+    .jumbotron .btn{
+    font-size: 1em;
+    }
+    .site-description{
+    font-size: 1em;
+    }
+    
+    footer{
+    height: 100%;
+    }
+    footer h5{
+    height: 100%;
+        font-size: 15px;
+    }
+    
+}
+
+/*
 @-webkit-keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);
@@ -245,3 +292,4 @@ padding: 5px;
         filter: grayscale(0%);
     }
 }
+*/
